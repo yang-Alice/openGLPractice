@@ -1,0 +1,21 @@
+vc包含目录
+
+E:\software\opengl\glfw-3.4\include
+E:\software\opengl\SOIL2-release-1.20\src\SOIL2
+E:\software\opengl\glew-2.1.0\include
+E:\software\opengl\glm
+
+链接器 附加库目录
+E:\software\opengl\glew-2.1.0\lib\Release\x64
+E:\software\opengl\SOIL2-release-1.20\lib\windows
+E:\software\opengl\glfw-3.4\build\src\Debug
+
+glfw3.lib
+glew32.lib
+glew32s.lib
+soil2-debug.lib
+opengl32.lib
+
+bug
+glewExperimental = GL_TRUE;//添加这一行
+if (glewInit() != GLEW_OK) { exit(EXIT_FAILURE); }

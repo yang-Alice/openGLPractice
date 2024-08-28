@@ -78,7 +78,7 @@ void init(GLFWwindow* window) {
 	pMat = glm::perspective(1.0472f, aspect, 0.1f, 1000.0f);
 
 	setupVertices();
-	earthTexture = Utils::loadTexture("Square.jpg");//circle.jpg  earth.jpg 2circle (2) 2circle Square
+	earthTexture = Utils::loadTexture("earth.jpg");//circle.jpg  earth.jpg 2circle (2) 2circle Square
 }
 
 void display(GLFWwindow* window, double currentTime) {

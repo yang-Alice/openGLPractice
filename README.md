@@ -21,3 +21,8 @@ Use Qt to draw figures, including drawing points, lines, triangles, rectangles, 
 
 
 ![我的图片](img/Draw_Figure.png)
+
+### ffd
+Free Form Deformation Tool
+
+This project provides a user-friendly implementation of the Free Form Deformation (FFD) algorithm using Qt, C++, and OpenGL. It allows users to interactively deform 3D meshes by manipulating control points, offering an intuitive interface for mesh editing and transformation.

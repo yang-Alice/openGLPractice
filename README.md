@@ -8,7 +8,7 @@ Record the process of learning graphics and images. This project stores some cod
 The folder contains the code for drawing a sphere using OpenGL.
 
 该文件夹下存放了OpenGL绘制球体的代码
-![我的图片](/img/earth.png)
+![我的图片](img/earth.png)
 
 ## qt
 该文件夹下存放了Qt相关的代码
@@ -20,4 +20,4 @@ Use Qt to draw figures, including drawing points, lines, triangles, rectangles, 
 使用Qt绘制图形，包括绘制点、线、三角形、矩形、圆等
 
 
-![我的图片](/img/Draw_Figure.png)
+![我的图片](img/Draw_Figure.png)
